@@ -291,17 +291,6 @@ box — there the bounds, not the algorithm, are the limiting factor.
 
 ---
 
-## Roadmap
-
-- [ ] Widen the GA bounds and raise the generation count, now that the cost surface is known to be flat
-- [ ] Add explicit overshoot and settling-time terms to the cost function
-- [ ] Load-step and input-step robustness tests on the optimized SMC gains
-- [ ] Compare the SMC against a linear PI designed on the small-signal Ćuk model
-- [ ] Extend the sliding mode approach to the buck and boost stages for a side-by-side comparison
-- [ ] Export scope traces and add the plots to the repository
-
----
-
 ## Notes
 
 `.plecs` files are plain-text model descriptions, so they diff and version
